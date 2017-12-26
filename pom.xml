@@ -107,21 +107,13 @@
                             </execution>
                         </executions>
                     </plugin>
-                    <plugin>
-                        <groupId>org.apache.tomcat.maven</groupId>
-                        <artifactId>tomcat7-maven-plugin</artifactId>
-                        <version>2.2</version>
-                        <configuration>
-                            <url>http://localhost:8081/code</url>
-                            <path>/code</path>
-                            <uriEncoding>UTF-8</uriEncoding>
-                            <port>8081</port>
-                        </configuration>
-                    </plugin>
                 </plugins>
                 <resources>
                     <resource>
-                        <directory>${profiles.dir}/dev</directory>
+                        <directory>src/main/java</directory>
+                        <includes>
+                            <include>**/*.properties</include>
+                        </includes>
                     </resource>
                     <resource>
                         <directory>src/main/resources</directory>
@@ -130,20 +122,7 @@
             </build>
         </profile>
         <profile>
-            <id>beta</id>
-            <build>
-                <resources>
-                    <resource>
-                        <directory>${profiles.dir}/beta</directory>
-                    </resource>
-                    <resource>
-                        <directory>src/main/resources</directory>
-                    </resource>
-                </resources>
-            </build>
-        </profile>
-        <profile>
-            <id>product</id>
+            <id>release</id>
             <build>
                 <plugins>
                     <plugin>
@@ -217,7 +196,10 @@
                 </plugins>
                 <resources>
                     <resource>
-                        <directory>${profiles.dir}/product</directory>
+                        <directory>src/main/java</directory>
+                        <includes>
+                            <include>**/*.properties</include>
+                        </includes>
                     </resource>
                     <resource>
                         <directory>src/main/resources</directory>

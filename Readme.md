@@ -1,6 +1,4 @@
 # mybatis自动生成工具
-## pom.xml集成tomcat插件,直接使用插件启动
-## 访问主页 http://localhost:8081/code
 
 ### 表命名规范：
 表名以tb_或td_开头(留个好习惯),如:菜单表:tb_menu
@@ -34,19 +32,6 @@
 
 #### spring文件
 * spring对应的action, servlet, tx.
-
-## 使用
-```
-可以自定义生成符合自己风格代码结构，配合使用下面地址
-https://github.com/fartherp/generator-code-integration.git
-
-pom.xml中引入自定义的包，即可生成自定义代码
-<dependency>
-    <groupId>com.github.fartherp</groupId>
-    <artifactId>generatorcode-framework</artifactId>
-    <version>1.0-SNAPSHOT</version>
-</dependency>
-```
 	
 ### 感谢开源项目
 ![MyBatis](https://camo.githubusercontent.com/196d30052623ff7b233765c5f641dbc8ae2f287d/687474703a2f2f6d7962617469732e6769746875622e696f2f696d616765732f6d7962617469732d6c6f676f2e706e67)
