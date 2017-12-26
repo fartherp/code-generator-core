@@ -11,7 +11,7 @@
     <groupId>com.github.fartherp</groupId>
     <artifactId>code-generator-core</artifactId>
     <packaging>jar</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
 
     <name>code-generator-core</name>
     <url>https://github.com/fartherp/code-generator-core</url>
