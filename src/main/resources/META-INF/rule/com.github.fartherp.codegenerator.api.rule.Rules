@@ -1,0 +1,2 @@
+baseRule=com.github.fartherp.codegenerator.api.rule.BaseRules
+exampleRule=com.github.fartherp.codegenerator.api.rule.ExampleRules
