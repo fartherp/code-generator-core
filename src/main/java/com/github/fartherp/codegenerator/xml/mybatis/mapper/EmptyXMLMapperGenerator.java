@@ -5,7 +5,7 @@
 package com.github.fartherp.codegenerator.xml.mybatis.mapper;
 
 import com.github.fartherp.codegenerator.db.AbstractAttributes;
-import com.github.fartherp.codegenerator.xml.XmlElement;
+import com.github.fartherp.javaxml.XmlElement;
 
 /**
  * Created by IntelliJ IDEA .

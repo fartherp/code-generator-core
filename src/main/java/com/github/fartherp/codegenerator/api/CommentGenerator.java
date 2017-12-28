@@ -6,12 +6,12 @@ package com.github.fartherp.codegenerator.api;
 
 import com.github.fartherp.codegenerator.db.ColumnInfo;
 import com.github.fartherp.codegenerator.db.TableInfoWrapper;
-import com.github.fartherp.codegenerator.xml.XmlElement;
 import com.github.fartherp.javacode.CompilationUnit;
 import com.github.fartherp.javacode.Field;
 import com.github.fartherp.javacode.InnerClass;
 import com.github.fartherp.javacode.InnerEnum;
 import com.github.fartherp.javacode.Method;
+import com.github.fartherp.javaxml.XmlElement;
 
 /**
  * 注释接口

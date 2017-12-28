@@ -7,7 +7,7 @@ package com.github.fartherp.codegenerator.xml.spring.document;
 import com.github.fartherp.codegenerator.config.CodeGenContext;
 import com.github.fartherp.codegenerator.db.AbstractAttributes;
 import com.github.fartherp.codegenerator.db.TableInfoWrapper;
-import com.github.fartherp.codegenerator.xml.Document;
+import com.github.fartherp.javaxml.Document;
 
 import java.util.List;
 

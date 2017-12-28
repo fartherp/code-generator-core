@@ -4,13 +4,13 @@
 
 package com.github.fartherp.codegenerator.config;
 
-import com.github.fartherp.codegenerator.api.formatter.DefaultJavaFormatter;
-import com.github.fartherp.codegenerator.api.formatter.DefaultXmlFormatter;
-import com.github.fartherp.codegenerator.api.formatter.JavaFormatter;
-import com.github.fartherp.codegenerator.api.formatter.XmlFormatter;
 import com.github.fartherp.codegenerator.db.DatabaseWrapper;
 import com.github.fartherp.codegenerator.java.resolver.DefaultJavaTypeResolverImpl;
 import com.github.fartherp.codegenerator.java.resolver.JavaTypeResolver;
+import com.github.fartherp.javacode.formatter.DefaultJavaFormatter;
+import com.github.fartherp.javacode.formatter.JavaFormatter;
+import com.github.fartherp.javaxml.formatter.DefaultXmlFormatter;
+import com.github.fartherp.javaxml.formatter.XmlFormatter;
 
 import java.io.File;
 import java.util.List;

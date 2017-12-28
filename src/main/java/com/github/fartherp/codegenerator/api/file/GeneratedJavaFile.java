@@ -4,8 +4,8 @@
 
 package com.github.fartherp.codegenerator.api.file;
 
-import com.github.fartherp.codegenerator.api.formatter.JavaFormatter;
 import com.github.fartherp.javacode.CompilationUnit;
+import com.github.fartherp.javacode.formatter.JavaFormatter;
 
 /**
  * JAVA自动生成文件类

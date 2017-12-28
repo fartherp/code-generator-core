@@ -7,14 +7,14 @@ package com.github.fartherp.codegenerator.xml.mybatis.mapper;
 import com.github.fartherp.codegenerator.api.AbstractGenerator;
 import com.github.fartherp.codegenerator.config.XmlConstants;
 import com.github.fartherp.codegenerator.db.AbstractAttributes;
-import com.github.fartherp.codegenerator.xml.Attribute;
-import com.github.fartherp.codegenerator.xml.Document;
-import com.github.fartherp.codegenerator.xml.XmlElement;
 import com.github.fartherp.codegenerator.xml.mybatis.element.AbstractXmlElementGenerator;
 import com.github.fartherp.codegenerator.xml.mybatis.element.BaseColumnListElementGenerator;
 import com.github.fartherp.codegenerator.xml.mybatis.element.BlobColumnListElementGenerator;
 import com.github.fartherp.codegenerator.xml.mybatis.element.ResultMapWithBLOBsElementGenerator;
 import com.github.fartherp.codegenerator.xml.mybatis.element.ResultMapWithoutBLOBsElementGenerator;
+import com.github.fartherp.javaxml.Attribute;
+import com.github.fartherp.javaxml.Document;
+import com.github.fartherp.javaxml.XmlElement;
 
 /**
  * 公共的XML的MAPPER类

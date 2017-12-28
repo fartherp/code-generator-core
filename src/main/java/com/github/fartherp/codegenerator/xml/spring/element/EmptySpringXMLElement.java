@@ -8,8 +8,8 @@ import com.github.fartherp.codegenerator.config.CodeGenContext;
 import com.github.fartherp.codegenerator.config.SpringXMLConstants;
 import com.github.fartherp.codegenerator.db.AbstractAttributes;
 import com.github.fartherp.codegenerator.db.TableInfoWrapper;
-import com.github.fartherp.codegenerator.xml.Attribute;
-import com.github.fartherp.codegenerator.xml.XmlElement;
+import com.github.fartherp.javaxml.Attribute;
+import com.github.fartherp.javaxml.XmlElement;
 
 import java.util.List;
 

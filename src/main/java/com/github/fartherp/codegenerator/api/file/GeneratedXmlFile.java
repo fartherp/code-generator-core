@@ -4,8 +4,8 @@
 
 package com.github.fartherp.codegenerator.api.file;
 
-import com.github.fartherp.codegenerator.api.formatter.XmlFormatter;
-import com.github.fartherp.codegenerator.xml.Document;
+import com.github.fartherp.javaxml.Document;
+import com.github.fartherp.javaxml.formatter.XmlFormatter;
 
 /**
  * XML文件

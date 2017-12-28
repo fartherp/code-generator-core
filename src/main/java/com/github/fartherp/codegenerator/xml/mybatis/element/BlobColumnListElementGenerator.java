@@ -7,7 +7,7 @@ package com.github.fartherp.codegenerator.xml.mybatis.element;
 import com.github.fartherp.codegenerator.db.AbstractAttributes;
 import com.github.fartherp.codegenerator.db.ColumnInfo;
 import com.github.fartherp.codegenerator.util.MyBatis3FormattingUtils;
-import com.github.fartherp.codegenerator.xml.TextElement;
+import com.github.fartherp.javaxml.TextElement;
 
 import java.util.Iterator;
 
