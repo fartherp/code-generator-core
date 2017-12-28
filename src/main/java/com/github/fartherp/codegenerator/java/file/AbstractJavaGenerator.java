@@ -7,8 +7,8 @@ package com.github.fartherp.codegenerator.java.file;
 import com.github.fartherp.codegenerator.api.AbstractGenerator;
 import com.github.fartherp.codegenerator.db.AbstractAttributes;
 import com.github.fartherp.codegenerator.db.TableInfoWrapper;
-import com.github.fartherp.codegenerator.java.CompilationUnit;
 import com.github.fartherp.codegenerator.java.element.AbstractJavaElementGenerator;
+import com.github.fartherp.javacode.CompilationUnit;
 
 import java.util.ArrayList;
 import java.util.List;

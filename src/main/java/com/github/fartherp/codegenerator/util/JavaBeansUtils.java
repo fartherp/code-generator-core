@@ -7,12 +7,12 @@ package com.github.fartherp.codegenerator.util;
 import com.github.fartherp.codegenerator.config.CodeGenContext;
 import com.github.fartherp.codegenerator.db.ColumnInfo;
 import com.github.fartherp.codegenerator.db.TableInfoWrapper;
-import com.github.fartherp.codegenerator.java.Field;
-import com.github.fartherp.codegenerator.java.JavaKeywords;
-import com.github.fartherp.codegenerator.java.JavaTypeInfo;
 import com.github.fartherp.codegenerator.java.JavaTypeInfoEnum;
-import com.github.fartherp.codegenerator.java.Method;
-import com.github.fartherp.codegenerator.java.Parameter;
+import com.github.fartherp.javacode.Field;
+import com.github.fartherp.javacode.JavaKeywords;
+import com.github.fartherp.javacode.JavaTypeInfo;
+import com.github.fartherp.javacode.Method;
+import com.github.fartherp.javacode.Parameter;
 
 import java.util.Locale;
 

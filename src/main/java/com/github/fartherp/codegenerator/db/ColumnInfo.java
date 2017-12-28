@@ -4,8 +4,8 @@
 
 package com.github.fartherp.codegenerator.db;
 
-import com.github.fartherp.codegenerator.java.JavaTypeInfo;
 import com.github.fartherp.codegenerator.java.JavaTypeInfoEnum;
+import com.github.fartherp.javacode.JavaTypeInfo;
 
 import java.sql.Types;
 

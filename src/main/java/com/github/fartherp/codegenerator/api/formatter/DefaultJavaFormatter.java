@@ -4,7 +4,7 @@
 
 package com.github.fartherp.codegenerator.api.formatter;
 
-import com.github.fartherp.codegenerator.java.CompilationUnit;
+import com.github.fartherp.javacode.CompilationUnit;
 
 /**
  * JAVA文件格式化接口（默认）

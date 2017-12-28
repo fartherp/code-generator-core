@@ -5,7 +5,7 @@
 package com.github.fartherp.codegenerator.db;
 
 import com.github.fartherp.codegenerator.config.CodeGenContext;
-import com.github.fartherp.codegenerator.java.JavaTypeInfo;
+import com.github.fartherp.javacode.JavaTypeInfo;
 
 /**
  * Created by IntelliJ IDEA .

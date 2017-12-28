@@ -8,12 +8,12 @@ import com.github.fartherp.codegenerator.api.AbstractGenerator;
 import com.github.fartherp.codegenerator.db.AbstractAttributes;
 import com.github.fartherp.codegenerator.db.ColumnInfo;
 import com.github.fartherp.codegenerator.db.TableInfoWrapper;
-import com.github.fartherp.codegenerator.java.CompilationUnit;
-import com.github.fartherp.codegenerator.java.JavaKeywords;
-import com.github.fartherp.codegenerator.java.JavaTypeInfo;
-import com.github.fartherp.codegenerator.java.Method;
-import com.github.fartherp.codegenerator.java.Parameter;
-import com.github.fartherp.codegenerator.java.TopLevelClass;
+import com.github.fartherp.javacode.CompilationUnit;
+import com.github.fartherp.javacode.JavaKeywords;
+import com.github.fartherp.javacode.JavaTypeInfo;
+import com.github.fartherp.javacode.Method;
+import com.github.fartherp.javacode.Parameter;
+import com.github.fartherp.javacode.TopLevelClass;
 
 import java.util.HashSet;
 import java.util.List;

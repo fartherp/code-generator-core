@@ -4,6 +4,7 @@
 
 package com.github.fartherp.codegenerator.java;
 
+import com.github.fartherp.javacode.JavaTypeInfo;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;

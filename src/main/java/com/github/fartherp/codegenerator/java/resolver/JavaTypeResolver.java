@@ -5,7 +5,7 @@
 package com.github.fartherp.codegenerator.java.resolver;
 
 import com.github.fartherp.codegenerator.db.ColumnInfo;
-import com.github.fartherp.codegenerator.java.JavaTypeInfo;
+import com.github.fartherp.javacode.JavaTypeInfo;
 
 /**
  * JAVA类型解析接口

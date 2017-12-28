@@ -9,12 +9,12 @@ import com.github.fartherp.codegenerator.api.file.GeneratedJavaFile;
 import com.github.fartherp.codegenerator.api.file.GeneratedXmlFile;
 import com.github.fartherp.codegenerator.api.rule.Rules;
 import com.github.fartherp.codegenerator.config.CodeGenContext;
-import com.github.fartherp.codegenerator.java.CompilationUnit;
-import com.github.fartherp.codegenerator.java.JavaTypeInfo;
 import com.github.fartherp.codegenerator.java.file.AbstractJavaGenerator;
 import com.github.fartherp.codegenerator.java.resolver.JavaTypeResolver;
 import com.github.fartherp.codegenerator.xml.mybatis.mapper.AbstractXmlMapperGenerator;
 import com.github.fartherp.framework.common.extension.ExtensionLoader;
+import com.github.fartherp.javacode.CompilationUnit;
+import com.github.fartherp.javacode.JavaTypeInfo;
 
 import java.util.ArrayList;
 import java.util.HashMap;

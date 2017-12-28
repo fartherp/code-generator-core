@@ -6,7 +6,7 @@ package com.github.fartherp.codegenerator.api.rule;
 
 import com.github.fartherp.codegenerator.db.TableInfo;
 import com.github.fartherp.codegenerator.db.TableInfoWrapper;
-import com.github.fartherp.codegenerator.java.JavaTypeInfo;
+import com.github.fartherp.javacode.JavaTypeInfo;
 
 /**
  * 基本规则

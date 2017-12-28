@@ -6,8 +6,8 @@ package com.github.fartherp.codegenerator.api.rule;
 
 import com.github.fartherp.codegenerator.db.TableInfo;
 import com.github.fartherp.codegenerator.db.TableInfoWrapper;
-import com.github.fartherp.codegenerator.java.JavaTypeInfo;
 import com.github.fartherp.framework.common.extension.SPI;
+import com.github.fartherp.javacode.JavaTypeInfo;
 
 /**
  * 规则接口
