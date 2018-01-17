@@ -19,8 +19,8 @@
 
     <properties>
         <project-version>1.0.9</project-version>
-        <javacode-version>1.0.1</javacode-version>
-        <javaxml-version>1.0.0</javaxml-version>
+        <javacode-version>1.0.2</javacode-version>
+        <javaxml-version>1.0.1</javaxml-version>
         <encoding.charset>UTF-8</encoding.charset>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <profiles.dir>src/main/profiles</profiles.dir>

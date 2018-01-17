@@ -47,4 +47,8 @@ public class GeneratedXmlFile extends GeneratedFile {
     public String getTargetPackage() {
         return targetPackage;
     }
+
+    public String getModule() {
+        return document.getModule();
+    }
 }

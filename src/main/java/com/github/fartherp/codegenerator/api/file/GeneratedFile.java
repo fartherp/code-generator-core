@@ -48,6 +48,12 @@ public abstract class GeneratedFile {
      */
     public abstract String getTargetPackage();
 
+    /**
+     * 获取文件所属模块
+     * @return 所属模块
+     */
+    public abstract String getModule();
+
     public String toString() {
         return getFormattedContent();
     }

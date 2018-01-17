@@ -32,6 +32,7 @@ public class GeneratedJavaFile extends GeneratedFile {
         this.fileEncoding = fileEncoding;
         this.javaFormatter = javaFormatter;
     }
+
     public String getFormattedContent() {
         return javaFormatter.getFormattedContent(compilationUnit);
     }
@@ -42,5 +43,9 @@ public class GeneratedJavaFile extends GeneratedFile {
 
     public String getTargetPackage() {
         return compilationUnit.getType().getPackageName();
+    }
+
+    public String getModule() {
+        return compilationUnit.getModule();
     }
 }
