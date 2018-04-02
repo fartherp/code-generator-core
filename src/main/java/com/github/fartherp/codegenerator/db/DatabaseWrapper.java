@@ -8,6 +8,8 @@ import com.github.fartherp.codegenerator.api.Generator;
 import com.github.fartherp.codegenerator.config.CodeGenContext;
 import com.github.fartherp.codegenerator.util.JavaBeansUtils;
 import com.github.fartherp.framework.common.util.DbManager;
+import com.github.fartherp.framework.exception.web.ResponseException;
+import org.apache.commons.collections.CollectionUtils;
 
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
@@ -59,6 +61,7 @@ public class DatabaseWrapper {
             return;
         }
         ResultSet dbTables = dbManager.getTables(connection, null, context.getDatabase(), null);
+        List<String> noPkTables = new ArrayList<String>();
         while (dbTables.next()) {
             for (String tableName : tableNames) {
                 String dbTableName = dbTables.getString("TABLE_NAME");
@@ -110,8 +113,14 @@ public class DatabaseWrapper {
                         columnInfo.setTableInfo(tableInfo);
                         tableInfoWrapper.addPrimaryKeyColumn(columnInfo);
                     }
+                    if (CollectionUtils.isEmpty(tableInfoWrapper.getPrimaryKeyColumns())) {
+                        noPkTables.add(tableInfoWrapper.getTableInfo().getIntrospectedTableName());
+                    }
                 }
             }
+        }
+        if (CollectionUtils.isNotEmpty(noPkTables)) {
+            throw new ResponseException(noPkTables.toString() + "，表没有主键，不支持自动生成");
         }
     }
 
