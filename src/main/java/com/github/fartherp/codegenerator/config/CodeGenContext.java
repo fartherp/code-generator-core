@@ -80,6 +80,9 @@ public class CodeGenContext {
     /** 是否添加分隔符 */
     private Integer isColumnNameDelimited;
 
+    /** 1：非项目，2：项目 */
+    private Integer ifGenProject;
+
     public CodeGenContext() {
         this.databaseWrapper = new DatabaseWrapper(this);
         this.javaFormatter = new DefaultJavaFormatter();
@@ -250,5 +253,13 @@ public class CodeGenContext {
 
     public void setIsColumnNameDelimited(Integer isColumnNameDelimited) {
         this.isColumnNameDelimited = isColumnNameDelimited;
+    }
+
+    public Integer getIfGenProject() {
+        return ifGenProject;
+    }
+
+    public void setIfGenProject(Integer ifGenProject) {
+        this.ifGenProject = ifGenProject;
     }
 }

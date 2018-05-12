@@ -38,7 +38,7 @@ public class GeneratedJavaFile extends GeneratedFile {
     }
 
     public String getFileName() {
-        return compilationUnit.getType().getShortName() + ".java";
+        return compilationUnit.getType().getBaseShortName() + ".java";
     }
 
     public String getTargetPackage() {
